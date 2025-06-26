@@ -2,7 +2,7 @@
 
 Welcome to **toCommon**, an experimental and ambitious project aimed at reducing vocabulary complexity and improving the efficiency of large language models (LLMs). Though built upon a series of theoretical hypotheses, this repository lays the foundation for a potential startup venture pushing the boundaries of LLM design, training, and inference.
 
-## 🧠 Core Idea
+## Core Idea
 
 The central methodology is described in [**common\_words.pdf**](./common_words.pdf), titled:
 
@@ -12,11 +12,11 @@ This approach proposes a structured mechanism to simplify token vocabularies by 
 
 ---
 
-## 📚 Supporting Hypotheses and Techniques
+## Supporting Hypotheses and Techniques
 
 In addition to vocabulary simplification, **toCommon** incorporates several complementary research ideas to enhance model efficiency and specialization:
 
-### 1. 🏗️ Efficient Scaling and Specialization
+### 1. Efficient Scaling and Specialization
 
 **File:** [`Efficient_Scaling.pdf`](./Efficient_Scaling.pdf)
 **Title:** *"Efficient Scaling and Specialization of Language Models via Layer Reuse and Domain-Focused Training"*
@@ -24,7 +24,7 @@ In addition to vocabulary simplification, **toCommon** incorporates several comp
 * Promotes transformer layer reuse across domains to reduce training costs.
 * Enables domain-specific fine-tuning without degrading general performance.
 
-### 2. 🧠 Intentional Overfitting & Caching
+### 2. Intentional Overfitting & Caching
 
 **File:** [`Overfitting_and_Caching.pdf`](./Overfitting_and_Caching.pdf)
 **Title:** *"Reducing AI Model Uncertainty via Intentional Overfitting and Structured Caching"*
@@ -32,7 +32,7 @@ In addition to vocabulary simplification, **toCommon** incorporates several comp
 * Advocates controlled overfitting on selected data to improve reliability.
 * Introduces caching mechanisms to aid memory-like retrieval and reduce hallucinations.
 
-### 3. 🧪 Dataset Quality and Noise Filtering
+### 3. Dataset Quality and Noise Filtering
 
 **File:** [`Improved_Datasets.pdf`](./Improved_Datasets.pdf)
 **Title:** *"Towards Improved Datasets in Machine Learning: Hypotheses on Pollution, Poison, and the Role of Misspellings"*
@@ -53,7 +53,7 @@ These works explore new attention and embedding structures to preserve local con
 
 ---
 
-## 🚀 Vision
+## Vision
 
 While **toCommon** is primarily hypothesis-driven, we are confident in the direction and believe it can evolve into a **startup-grade system** offering:
 
@@ -84,7 +84,7 @@ While **toCommon** is primarily hypothesis-driven, we are confident in the direc
 
 ---
 
-## 🧪 Project Status
+## Project Status
 
 **toCommon** is currently in **early-stage experimental development**.
 We are actively building out the tokenizer, training pipeline, and evaluation framework based on the theories described.
