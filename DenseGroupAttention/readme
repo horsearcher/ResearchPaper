@@ -10,4 +10,4 @@ trainer = Trainer(model=newmodel, args=training_args, train_dataset=tokenized_da
 
 trainer.train()
 
-Or trainning on cloud infrastructure:
+Or trainning on cloud infrastructure.
