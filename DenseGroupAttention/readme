@@ -9,3 +9,5 @@ from transformers import Trainer
 trainer = Trainer(model=newmodel, args=training_args, train_dataset=tokenized_datasets[“train”])
 
 trainer.train()
+
+Or trainning on cloud infrastructure.
