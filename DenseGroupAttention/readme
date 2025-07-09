@@ -4,7 +4,7 @@ based on transformers/DeepseekV2
 For example, to train it locally:
 
 from transformers import TrainingArguments
-training_args = TrainingArguments(output_dir='./48train', per_device_train_batch_size=1, num_train_epochs=1, eval_strategy='no', save_strategy='steps',save_steps=1, fp16=True, logging_dir='./48train/logs', logging_steps=10)#, label_names=['text']
+training_args = TrainingArguments(output_dir='./48train', per_device_train_batch_size=1, num_train_epochs=1, eval_strategy='no', save_strategy='steps',save_steps=1, fp16=True, logging_dir='./48train/logs', logging_steps=10)
 from transformers import Trainer
 trainer = Trainer(model=newmodel, args=training_args, train_dataset=tokenized_datasets[“train”])
 
