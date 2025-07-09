@@ -74,11 +74,9 @@ While **toCommon** is primarily hypothesis-driven, we are confident in the direc
 ├── Improved_Datasets.pdf
 ├── Word_Compound.pdf
 ├── Dense_Group_Attention.pdf
-├── src/                     # Prototype code
-│   ├── tokenizer/
-│   ├── models/
-│   ├── training/
-│   └── utils/
+├── DenseGroupAttention/                     # Model for DenseGroupAttention
+│   ├── models.py
+├── LICENSE-CODE
 └── README.md
 ```
 
@@ -103,6 +101,6 @@ Open an issue, start a discussion, or contact us directly via \[email].
 
 ## 📄 License
 
-(see `LICENSE` for details)
+This code repository is licensed under the MIT License. The use of DeepSeek-V2 models is subject to the DeepSeek-V2 Model License.
 
 ---
