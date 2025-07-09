@@ -75,7 +75,7 @@ While **toCommon** is primarily hypothesis-driven, we are confident in the direc
 ├── Word_Compound.pdf
 ├── Dense_Group_Attention.pdf
 ├── DenseGroupAttention/                     # Model for DenseGroupAttention
-│   ├── models.py
+│   └── models.py
 ├── LICENSE-CODE
 └── README.md
 ```
