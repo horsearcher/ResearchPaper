@@ -2,7 +2,7 @@
 
 Welcome to **toCommon**, an experimental and ambitious project aimed at reducing vocabulary complexity and improving the efficiency of large language models (LLMs). Though built upon a series of theoretical hypotheses, this repository lays the foundation for a potential startup venture pushing the boundaries of LLM design, training, and inference.
 
-**"Now [Model](./DenseGroupAttention/models.py) for DenseGroupAttention is ready to train on, at same time, the edit system for Simple-Word Compound Substitution is in develope"**
+**"Now [Model](/DenseGroupAttention/models.py) for DenseGroupAttention is ready to train on, at same time, the edit system for Simple-Word Compound Substitution is in develope"**
 
 ## Core Idea
 
